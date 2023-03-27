@@ -50,12 +50,22 @@ body {
   width: 92vw;
   height: 10vh;
   margin: 0 0 7px 0;
-  padding: 5px 20px;
+  padding: 12px 20px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 5px;
+}
+.header .intro {
+  margin-right: 10%;
+}
+.header #headCover {
+  height: 75px;
+  width: 60px;
+  margin-left: 25%;
+  border-radius: 10px;
+  border: ridge 1px slategrey;
 }
 
 .sideNav {
@@ -80,8 +90,6 @@ body {
   text-shadow: none;
   border: 2px ridge;
   width: 100vh;
-  height: 20vh;
-  padding: 50px 25px;
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 5px;
