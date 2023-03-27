@@ -1,0 +1,131 @@
+* {
+  text-align: center;
+  padding: 5px;
+}
+
+body {
+  color: whitesmoke;
+  background: rgba(63, 63, 63, 0.4);
+  background-image: url("../resources/hermosillo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  font-size: 18px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.navButton {
+  background-color: rgba(22, 20, 160, 0);
+  color: whitesmoke;
+  border: 2px ridge;
+  margin: 2px;
+}
+
+.navButton:hover {
+  transform: scale(1.05);
+  background-color: rgb(22, 20, 160);
+  font-size: 16px;
+}
+
+.icons {
+  height: 70px;
+  width: 70px;
+}
+
+.skillsTable {
+  color: black;
+  margin: auto 15vh auto;
+}
+
+.components {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  background-color: rgba(22, 20, 160, 0.92);
+  text-shadow: 1px 0.5px black;
+  border: 2px ridge;
+  width: 92vw;
+  height: 10vh;
+  margin: 0 0 7px 0;
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.sideNav {
+  background-color: rgba(22, 20, 160, 0.836);
+  text-shadow: 1px 0.5px black;
+  border: 2px ridge;
+  width: 20vh;
+  height: 78vh;
+  margin-left: 5px;
+  padding: 5px 15px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.content {
+  background-color: rgba(245, 245, 245, 0.6);
+  color: black;
+  text-shadow: none;
+  border: 2px ridge;
+  width: 100vh;
+  height: 20vh;
+  padding: 50px 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.footer {
+  border-radius: 5px;
+}
+
+#sAndE {
+  background-color: rgba(245, 245, 245, 0.6);
+  color: black;
+  text-shadow: none;
+  border: 2px ridge;
+  width: 150vh;
+  height: 60vh;
+  margin: auto;
+  padding: 50px 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+#background {
+  background-color: rgba(245, 245, 245, 0.6);
+  color: black;
+  text-shadow: none;
+  border: 2px ridge;
+  width: 115vh;
+  height: 20vh;
+  margin: 17% auto;
+  padding: 75px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+#links {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 5% 0 25%;
+}/*# sourceMappingURL=index.css.map */
