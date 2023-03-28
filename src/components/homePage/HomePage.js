@@ -9,7 +9,7 @@ function HomePage () {
             I am a highly motivating person with excellent Soft Skills. Can head team sprints or work alone. Look at my Links and Works to review my compatibility for you organization. Navigate through my profiles to connect or reach me at my Contact Me page.
             </div>
             {/* <div className="footer">
-                ClearFooter
+                ClearFooter (optional)
             </div> */}
         </div>
     )
