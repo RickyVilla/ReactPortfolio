@@ -21,7 +21,7 @@ body {
 .navButton {
   background-color: rgba(22, 20, 160, 0);
   color: whitesmoke;
-  border: 2px ridge;
+  border: 2px ridge slategrey;
   margin: 2px;
 }
 
@@ -49,7 +49,7 @@ body {
 .header {
   background-color: rgba(22, 20, 160, 0.92);
   text-shadow: 1px 0.5px black;
-  border: 2px ridge;
+  border: 2px ridge rgba(112, 128, 144, 0.5);
   width: 92vw;
   height: 10vh;
   margin: 0 0 7px 0;
@@ -76,7 +76,7 @@ body {
 .sideNav {
   background-color: rgba(22, 20, 160, 0.836);
   text-shadow: 1px 0.5px black;
-  border: 2px ridge;
+  border: 2px ridge rgba(112, 128, 144, 0.5);
   width: 20vh;
   height: 78vh;
   margin-left: 5px;
