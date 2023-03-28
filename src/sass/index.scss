@@ -1,16 +1,15 @@
-// All Default Style
+                                    ///// All Default Style \\\\\
 * {
     text-align: center;
     padding: 5px;
 }
-// General Styling Touches
+                                 ///// General Styling Touches \\\\\
 body {
     color: whitesmoke;
     background: rgba(63, 63, 63, 0.4);
     background-image: url("../resources/hermosillo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    // background-position: cover;
     background-blend-mode: overlay;
     font-size: 18px;
     overflow-y: scroll;
@@ -24,7 +23,7 @@ body {
 }
 .navButton:hover {
     transform: scale(1.05);
-    background-color: rgba(22, 20, 160, 1);
+    background-color: rgba(0, 57, 80, 0.877);
     font-size: 16px;
 }
 .icons {
@@ -33,10 +32,9 @@ body {
 }
 .skillsTable {
     color: black;
-    // border: ridge 3px;
     margin: auto 15vh auto;
 }
-// Elements Styling
+                                ///// Elements Styling \\\\\
 .components {
     display: flex;
     flex-wrap: wrap;
@@ -66,7 +64,7 @@ body {
     }
 }   
 .sideNav {
-    background-color:rgba(22, 20, 160, 0.836); 
+    background-color:rgba(22, 20, 160, 0.836);
     text-shadow: 1px .5px black;
     border: 2px ridge;
     width: 20vh;
@@ -79,9 +77,15 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 5px;
+    #theme {
+        height: 130px;
+        width: 120px;
+        margin-bottom: 50px;
+    }
 }
 .content {
-    background-color:rgba(245, 245, 245, 0.6); 
+    background-color:rgba(170, 170, 170, 0.6); 
+    font-weight: 600;
     color: black;
     text-shadow: none;
     border: 2px ridge;
@@ -93,8 +97,23 @@ body {
 .footer {
     border-radius: 5px;
 }
-// 
-#sAndE {
+.paragraph {
+    margin: 5px;
+}
+                                    ///// Page Id's \\\\\
+#homePage {
+    margin: 20% 0 0 32%;
+    padding: 25px;
+}
+#homePage:hover {
+    font-style: oblique;
+    font-size: 20px;
+}
+.contactButton:hover {
+    transform: scale(1.2);
+    text-decoration-line: underline;
+}
+#skillsPage {
     background-color:rgba(245, 245, 245, 0.6); 
     color: black;
     text-shadow: none;
@@ -109,7 +128,7 @@ body {
     justify-content: center;
     border-radius: 5px;
 }
-#background {
+#backgroundPage {
     background-color:rgba(245, 245, 245, 0.6); 
     color: black;
     text-shadow: none;
@@ -124,7 +143,6 @@ body {
     justify-content: center;
     border-radius: 5px;
     font-weight: 600;
-
 }
 #links {
     display: flex;
