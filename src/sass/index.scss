@@ -1,6 +1,7 @@
                                     ///// All Default Style \\\\\
 * {
     text-align: center;
+    user-select: none;
     padding: 5px;
 }
                                  ///// General Styling Touches \\\\\
@@ -34,11 +35,11 @@ body {
     color: black;
     margin: auto 15vh auto;
 }
-                                ///// Elements Styling \\\\\
 .components {
     display: flex;
     flex-wrap: wrap;
 }
+                                ///// Elements Styling \\\\\
 .header {
     background-color:rgba(22, 20, 160, 0.92); 
     text-shadow: 1px .5px black;
@@ -54,13 +55,15 @@ body {
     border-radius: 5px;
     .intro {
         margin-right: 10%;
+        text-shadow: 3px 3px 3px black;
     }
-    #headCover {
-     height: 75px;
-     width: 60px;
-     margin-left: 25%;
-     border-radius: 10px;
-     border: ridge 1px slategrey;
+    #headShot {
+        background-size: 50%;
+        zoom: 110%;
+        height: 75px;
+        width: 60px;
+        margin-left: 25%;
+        border-radius: 10px;
     }
 }   
 .sideNav {
@@ -80,21 +83,19 @@ body {
     #theme {
         height: 130px;
         width: 120px;
+        border-radius: 8px;
         margin-bottom: 50px;
     }
 }
 .content {
     background-color:rgba(170, 170, 170, 0.6); 
+    text-shadow: 1px 1px 2px whitesmoke;
     font-weight: 600;
     color: black;
-    text-shadow: none;
     border: 2px ridge;
     width: 100vh;
     flex-wrap: wrap;
     justify-content: center;
-    border-radius: 5px;
-}
-.footer {
     border-radius: 5px;
 }
 .paragraph {
