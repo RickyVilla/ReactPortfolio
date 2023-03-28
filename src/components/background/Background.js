@@ -1,7 +1,7 @@
 function Background () {
     return (
         <div className="components">
-            <div className="content" id="background">
+            <div className="content" id="backgroundPage">
                 <div>
                     <h3>Work History:</h3>
                 </div>

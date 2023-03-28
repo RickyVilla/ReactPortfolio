@@ -1,5 +1,8 @@
 * {
   text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   padding: 5px;
 }
 
@@ -18,13 +21,13 @@ body {
 .navButton {
   background-color: rgba(22, 20, 160, 0);
   color: whitesmoke;
-  border: 2px ridge;
+  border: 2px ridge slategrey;
   margin: 2px;
 }
 
 .navButton:hover {
   transform: scale(1.05);
-  background-color: rgb(22, 20, 160);
+  background-color: rgba(0, 57, 80, 0.877);
   font-size: 16px;
 }
 
@@ -46,7 +49,7 @@ body {
 .header {
   background-color: rgba(22, 20, 160, 0.92);
   text-shadow: 1px 0.5px black;
-  border: 2px ridge;
+  border: 2px ridge rgba(112, 128, 144, 0.5);
   width: 92vw;
   height: 10vh;
   margin: 0 0 7px 0;
@@ -59,19 +62,21 @@ body {
 }
 .header .intro {
   margin-right: 10%;
+  text-shadow: 3px 3px 3px black;
 }
-.header #headCover {
+.header #headShot {
+  background-size: 50%;
+  zoom: 110%;
   height: 75px;
   width: 60px;
   margin-left: 25%;
   border-radius: 10px;
-  border: ridge 1px slategrey;
 }
 
 .sideNav {
   background-color: rgba(22, 20, 160, 0.836);
   text-shadow: 1px 0.5px black;
-  border: 2px ridge;
+  border: 2px ridge rgba(112, 128, 144, 0.5);
   width: 20vh;
   height: 78vh;
   margin-left: 5px;
@@ -83,11 +88,18 @@ body {
   justify-content: center;
   border-radius: 5px;
 }
+.sideNav #theme {
+  height: 130px;
+  width: 120px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
 
 .content {
-  background-color: rgba(245, 245, 245, 0.6);
+  background-color: rgba(170, 170, 170, 0.6);
+  text-shadow: 1px 1px 2px whitesmoke;
+  font-weight: 600;
   color: black;
-  text-shadow: none;
   border: 2px ridge;
   width: 100vh;
   flex-wrap: wrap;
@@ -95,11 +107,26 @@ body {
   border-radius: 5px;
 }
 
-.footer {
-  border-radius: 5px;
+.paragraph {
+  margin: 5px;
 }
 
-#sAndE {
+#homePage {
+  margin: 20% 0 0 32%;
+  padding: 25px;
+}
+
+#homePage:hover {
+  font-style: oblique;
+  font-size: 20px;
+}
+
+.contactButton:hover {
+  transform: scale(1.2);
+  text-decoration-line: underline;
+}
+
+#skillsPage {
   background-color: rgba(245, 245, 245, 0.6);
   color: black;
   text-shadow: none;
@@ -115,7 +142,7 @@ body {
   border-radius: 5px;
 }
 
-#background {
+#backgroundPage {
   background-color: rgba(245, 245, 245, 0.6);
   color: black;
   text-shadow: none;
