@@ -1,9 +1,9 @@
 import ASC from "../../resources/ASC.jpg";
-// import   from "";
-// import   from "";
-// import   from "";
-// import   from "";
-// import   from "";
+import Khols from "../../resources/khols.jpg";
+import FORD from "../../resources/holmesTuttle.jpg";
+import HomeGoods from "../../resources/HomeGoodsLogo.png";
+import ArmorPoint from "../../resources/armorPoint.jpg";
+import Banyan from "../../resources/banyanLabs.jpg";
 // import   from "";
 // import   from "";
 // 
@@ -19,6 +19,11 @@ function Background () {
                 <h3>Work History:</h3>
                 <div>
                     <img className="workIcons" src={ASC} />
+                    <img className="workIcons" src={Khols} />
+                    <img className="workIcons2" src={FORD} />
+                    <img className="workIcons2" src={HomeGoods} />
+                    <img className="workIcons2" src={ArmorPoint} />
+                    <img className="workIcons" src={Banyan} />
                 </div>
             </div>
             {/* <div className="footer">
