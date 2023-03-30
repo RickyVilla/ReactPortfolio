@@ -177,17 +177,17 @@ body {
   color: black;
   text-shadow: 1px 1px 2px whitesmoke;
   border: 2px ridge;
-  height: 30vh;
-  width: 75vw;
-  margin: 17% auto;
-  padding: 25px;
-  display: inline-flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  height: 40vh;
+  width: 65vw;
+  margin: 5% auto;
+  padding: 0 15px 0 15px;
   justify-content: center;
   border-radius: 5px;
   font-weight: 600;
-  text-overflow: overflow;
+  text-overflow: none;
+}
+#backgroundPage #backgroundTitle {
+  text-decoration: underline;
 }
 
 #links {
