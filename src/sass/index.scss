@@ -145,7 +145,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 5px;
-
     .skillsIconLeft {
         margin-right: 40%;
         border-radius: 15px;
@@ -160,20 +159,21 @@ body {
     }
 }
 #backgroundPage {
-    background-color:rgba(245, 245, 245, 0.6); 
+    background-color:rgba(175, 175, 175, 0.6); 
     color: black;
-    text-shadow: none;
+    text-shadow: 1px 1px 2px whitesmoke;
     border: 2px ridge;
-    width: 115vh;
-    height: 20vh;
+    height: 30vh;
+    width: 75vw;
     margin: 17% auto;
-    padding: 75px;
-    display: flex;
+    padding: 25px;
+    display: inline-flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 5px;
     font-weight: 600;
+    text-overflow: overflow;
 }
 #links {
     display: flex;
