@@ -17,8 +17,8 @@ export default function MyPortfolio () {
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage/>}/>
             <Route path="AboutMe" element={<AboutMe />} />
-            <Route path="Background" element={<Background />} />
             <Route path="Skills&Experience" element={<SkillsAndExperience />} />
+            <Route path="Background" element={<Background />} />
             <Route path="ContactMe" element={<ContactMe />} />
           </Route>
         </Routes>

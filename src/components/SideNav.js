@@ -13,8 +13,8 @@ const SideNav = () => {
             <img id="theme" src={ThemeImage} />
             <Link className="navButton" to="/">Home</Link>
             <Link className="navButton" to="/AboutMe">About Me</Link>
-            <Link className="navButton" to="/Background">Background</Link>
             <Link className="navButton" to="/Skills&Experience">Skills & Experience</Link>
+            <Link className="navButton" to="/Background">Background</Link>
             <Link className="navButton contactButton" to="/ContactMe">Contact Me</Link>
         </div>
         </>
