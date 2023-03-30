@@ -2,8 +2,6 @@ import HTML from "../../resources/htmlLogo.png";
 import CSS from "../../resources/cssLogo.jpg";
 import JS from "../../resources/jsLogo.jpg";
 import Node from "../../resources/nodeJsLogo.jpg";
-// import  from "";
-// import  from "";
 // 
 function SkillsAndExperience () {
     return (
@@ -24,12 +22,7 @@ function SkillsAndExperience () {
                 </div>
                 <img className="skillsIconLeft"  src={JS} />
                 <img className="skillsIconRight"  src={Node} />
-                {/* <img className="skillsIcons"  src={} /> */}
-                {/* <img className="skillsIcons"  src={} /> */}
             </div>
-            {/* <div className="footer">
-                ClearFooter
-            </div> */}
         </div>
     )
 }
