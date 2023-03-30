@@ -34,9 +34,6 @@ function ContactMe () {
                     Request-Call<img className="icons" src={CallMe} />
                     </a></div>
             </div>
-            {/* <div className="footer">
-                ClearFooter
-            </div> */}
         </div>
     )
 }

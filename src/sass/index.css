@@ -36,7 +36,6 @@ body {
   background-blend-mode: overlay;
   font-size: 18px;
   overflow-y: scroll;
-  scrollbar-width: none;
 }
 
 .navButton {
