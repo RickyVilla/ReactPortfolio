@@ -4,6 +4,12 @@ import Gmail from "../../resources/gmail.jpg"
 import CallMe from "../../resources/callMe.webp"
 // 
 function ContactMe () {
+    const Email = () => {
+        alert("copy to CC:                      rickyv815@gmail.com");
+    }
+    const Phone = () => {
+        alert("                                 (520)-403-7196");
+    }
     return (
         <div className="components">
             <div className="content" id="linksPage">
@@ -19,12 +25,12 @@ function ContactMe () {
                     </a>    
                 </div>
                 <div>                    
-                    <a target="_new" href="">
+                    <a onClick={Email}>
                         GMail<img className="icons" src={Gmail} />
                     </a>
                 </div>
                 <div>                   
-                    <a target="_new" href="">
+                    <a onClick={Phone}>
                     Request-Call<img className="icons" src={CallMe} />
                     </a></div>
             </div>
