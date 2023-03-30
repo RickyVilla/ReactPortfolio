@@ -214,11 +214,8 @@ body {
 
 #linksPage {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  margin: 15% 0 0 40%;
   border-radius: 20px;
-  flex-wrap: wrap;
-  margin: 5% 5% 0 25%;
 }
 #linksPage #ProjectsTitle {
   margin: auto 15%;
