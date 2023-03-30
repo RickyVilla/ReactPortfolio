@@ -31,7 +31,6 @@ body {
     background-blend-mode: overlay;
     font-size: 18px;
     overflow-y: scroll;
-    scrollbar-width: none;
 }
 .navButton {
     background-color:rgba(22, 20, 160, 0); 
@@ -197,11 +196,7 @@ body {
 #linksPage {
     display: flex;
     margin: 15% 0 0 40%;
-    // flex-direction: row;
-    // flex-wrap: wrap;
     border-radius: 20px;
-    // flex-wrap: wrap;
-    // float: right;
     #ProjectsTitle {
         margin: auto 15%;
     }
