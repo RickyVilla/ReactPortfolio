@@ -7,7 +7,7 @@ const SideNav = () => {
         <>
         <div className="header">
         <img id="headShot" src={CoverPic}/>
-            <h3 className="intro">Ricardo Estrada Villavicencio | Software Engineer</h3>
+            <h2 className="intro">Ricardo Estrada Villavicencio | Software Engineer</h2>
         </div>
         <div className="sideNav">
             <img id="theme" src={ThemeImage} />
