@@ -4,8 +4,6 @@ import FORD from "../../resources/holmesTuttle.jpg";
 import HomeGoods from "../../resources/HomeGoodsLogo.png";
 import ArmorPoint from "../../resources/armorPoint.jpg";
 import Banyan from "../../resources/banyanLabs.jpg";
-// import   from "";
-// import   from "";
 // 
 function Background () {
     return (
@@ -26,9 +24,6 @@ function Background () {
                     <img className="workIcons" src={Banyan} />
                 </div>
             </div>
-            {/* <div className="footer">
-                ClearFooter
-            </div> */}
         </div>
     )
 }
