@@ -7,27 +7,28 @@ function ContactMe () {
     return (
         <div className="components">
  
-            <div className="content" id="links">
-                <h3>Review my Projects and Connect with me Here:</h3><br/>
+            <div className="content" id="linksPage">
+                <h3 id="ProjectsTitle">Review my Projects and Connect with me Here:</h3>
                 <div>
-                    <a target="_self">
+                    <a target="_new" href="https://github.com/RickyVilla">
                         GitHub
                         <img className="icons" src={GitHub} />
                     </a>
                 </div>
                 <div>
-                    <a target="_self">
+                    <a target="_new" href="https://www.linkedin.com/in/r-villavicencio">
                         LinkedIn
                         <img className="icons" src={LinkedIn} />
                     </a>    
                 </div>
                 <div>                    
-                    <a target="_self">
+                    <a target="_new">
                         GMail
                         <img className="icons" src={Gmail} />
                     </a>
                 </div>
-                <div>                   <a target="_self">
+                <div>                   
+                    <a target="_new" href="">
                     Request-Call 
                         <img className="icons" src={CallMe} />
                     </a></div>

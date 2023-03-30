@@ -12,6 +12,21 @@ h3 {
   margin-top: 0;
 }
 
+a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  transform: scale(1.2);
+}
+
+img {
+  border-radius: 15px;
+}
+
 body {
   color: whitesmoke;
   background: rgba(63, 63, 63, 0.4);
@@ -197,9 +212,14 @@ body {
   width: 160px;
 }
 
-#links {
+#linksPage {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   border-radius: 20px;
   flex-wrap: wrap;
   margin: 5% 5% 0 25%;
+}
+#linksPage #ProjectsTitle {
+  margin: auto 15%;
 }/*# sourceMappingURL=index.css.map */
