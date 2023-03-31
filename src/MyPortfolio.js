@@ -1,8 +1,6 @@
 // Create Home Page Scripting
-import ReactDOM from "react-dom/client"
 import React from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-// 
 // importing page links
 import Layout from "./components/Layout"
 import AboutMe from "./components/aboutMe/AboutMe"
@@ -18,8 +16,8 @@ export default function MyPortfolio () {
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage/>}/>
             <Route path="AboutMe" element={<AboutMe />} />
-            <Route path="Background" element={<Background />} />
             <Route path="Skills&Experience" element={<SkillsAndExperience />} />
+            <Route path="Background" element={<Background />} />
             <Route path="ContactMe" element={<ContactMe />} />
           </Route>
         </Routes>

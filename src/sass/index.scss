@@ -4,6 +4,23 @@
     user-select: none;
     padding: 5px;
 }
+h3 {
+    text-decoration: underline;
+    font-weight: 600;
+    margin-top: 0;
+}
+a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    transform: scale(1.2);
+}
+img {
+    border-radius: 15px;
+}
                                  ///// General Styling Touches \\\\\
 body {
     color: whitesmoke;
@@ -14,7 +31,6 @@ body {
     background-blend-mode: overlay;
     font-size: 18px;
     overflow-y: scroll;
-    scrollbar-width: none;
 }
 .navButton {
     background-color:rgba(22, 20, 160, 0); 
@@ -39,7 +55,7 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-                                ///// Elements Styling \\\\\
+                                ///// Element & Class Styling \\\\\
 .header {
     background-color:rgba(22, 20, 160, 0.92); 
     text-shadow: 1px .5px black;
@@ -101,6 +117,10 @@ body {
 .paragraph {
     margin: 5px;
 }
+.textButton:hover {
+    transform: scale(1.2);
+    text-decoration-line: underline;
+}
                                     ///// Page Id's \\\\\
 #homePage {
     margin: 20% 0 0 32%;
@@ -110,43 +130,73 @@ body {
     font-style: oblique;
     font-size: 20px;
 }
-.contactButton:hover {
-    transform: scale(1.2);
-    text-decoration-line: underline;
+#aboutMePage {
+    margin: 3% auto;
+    padding: 25px;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    #profileImg {
+        float: left;
+        height: 150px;
+        width: 150px;
+        margin: 1%;
+    }
 }
 #skillsPage {
-    background-color:rgba(245, 245, 245, 0.6); 
+    background-color:rgba(175, 175, 175, 0.6); 
     color: black;
-    text-shadow: none;
+    text-shadow: 1px 1px 2px whitesmoke;
     border: 2px ridge;
-    width: 150vh;
-    height: 60vh;
+    height: auto;
+    width: 80vw;
     margin: auto;
-    padding: 50px 25px;
+    padding: 30px 15px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 5px;
+    .skillsIconLeft {
+        margin-right: 40%;
+        border-radius: 15px;
+        height: 75px;
+        width: 60px;
+    }
+    .skillsIconRight {
+        margin-left: 40%;
+        border-radius: 15px;
+        height: 75px;
+        width: 60px;
+    }
 }
 #backgroundPage {
-    background-color:rgba(245, 245, 245, 0.6); 
+    background-color:rgba(175, 175, 175, 0.6); 
     color: black;
-    text-shadow: none;
+    text-shadow: 1px 1px 2px whitesmoke;
     border: 2px ridge;
-    width: 115vh;
-    height: 20vh;
-    margin: 17% auto;
-    padding: 75px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    height: auto;
+    width: 65vw;
+    margin: 5% auto;
+    padding: 0 15px 0 15px;
     justify-content: center;
     border-radius: 5px;
     font-weight: 600;
+    .workIcons {
+        border-radius: 15px;
+        height: 75px;
+        width: 75px;
+    }
+    .workIcons2 {
+        border-radius: 15px;
+        height: 75px;
+        width: 160px;
+    }
 }
-#links {
+#linksPage {
     display: flex;
-    flex-wrap: wrap;
-    margin: 5% 5% 0 25%;
+    margin: 15% 0 0 40%;
+    border-radius: 20px;
+    #ProjectsTitle {
+        margin: auto 15%;
+    }
 }

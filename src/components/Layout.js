@@ -8,7 +8,6 @@ const Layout = () => {
         <>
         <SideNav />
         <Outlet />
-        {/* footer */}
         </>
     )
 }
