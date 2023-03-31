@@ -1,7 +1,6 @@
 // Create Home Page Scripting
 import React from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-// 
 // importing page links
 import Layout from "./components/Layout"
 import AboutMe from "./components/aboutMe/AboutMe"
